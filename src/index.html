@@ -7,13 +7,23 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Form input wave</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure placeat
-      nulla, quaerat sequi eos debitis hic dolores consequuntur quis
-      reprehenderit minima blanditiis eaque qui cupiditate ipsa id quibusdam
-      illum beatae!
-    </p>
+    <div class="container">
+      <h1>Please Log in</h1>
+      <form>
+        <div class="form-controll">
+          <input type="text" required />
+          <label>E-Mail</label>
+        </div>
+        <div class="form-controll">
+          <input type="password" required />
+          <label>Password</label>
+        </div>
+
+        <button class="btn">Login</button>
+
+        <p class="text">Don`t have an account? <a href="#">Register</a></p>
+      </form>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
